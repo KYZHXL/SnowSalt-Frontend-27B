@@ -1,0 +1,31 @@
+SnowSalt Frontend 27B LoRA
+Local modifications and launcher scripts: Copyright 2026 SnowSalt.
+
+This is an independent adapter, not an official Qwen or DavidAU release. This package does not redistribute the base or merged model.
+
+Direct upstream model:
+DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU
+https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU
+Declared license: Apache License 2.0.
+The upstream card credits DavidAU, Nightmedia and other contributors.
+
+Underlying model identified by the upstream card:
+Qwen/Qwen3.8-27B, Qwen Team / Alibaba.
+https://huggingface.co/Qwen/Qwen3.8-27B
+License: Apache License 2.0. The upstream license is retained in licenses/.
+
+Changes made November 2026: frontend LoRA training; merge of the round-2
+adapter into BF16 GGUF; conversion of the merged model to Q4_K_M;
+Windows CPU/GPU hybrid inference launchers and release packaging.
+
+No separate upstream NOTICE file was listed in the DavidAU repository at
+the license-review snapshot. This file records downstream attribution,
+not a replacement or expansion of upstream grants.
+
+llama.cpp: MIT, Copyright (c) 2023-2026 The ggml authors.
+The authoritative copyright text and license are in licenses/LLAMA_CPP_LICENSE.txt.
+The official runtime includes LLVM OpenMP; its license is also retained.
+
+The repository's script license does not establish permission under the
+training-output provider's terms. See RELEASE_REVIEW.md before publishing weights.
+

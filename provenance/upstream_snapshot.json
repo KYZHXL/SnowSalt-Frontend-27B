@@ -1,0 +1,28 @@
+{
+  "id": "DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU",
+  "sha": "fd6a26869dc5775b3c81ce65468af634dd300b02",
+  "cardData": {
+    "license": "apache-2.0",
+    "language": [
+      "en"
+    ],
+    "pipeline_tag": "image-text-to-text",
+    "library_name": "transformers",
+    "tags": [
+      "heretic",
+      "qwen3_8",
+      "qwen3_6",
+      "uncensored",
+      "finetune",
+      "Cold Fusion",
+      "GAIN Training",
+      "Multi-stage tuning",
+      "all use cases",
+      "unsloth"
+    ],
+    "base_model": [
+      "Qwen/Qwen3.8-27B"
+    ]
+  },
+  "notice_files": null
+}

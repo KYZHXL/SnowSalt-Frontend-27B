@@ -1,0 +1,19 @@
+{
+  "recommended_ram_gb": 32,
+  "checks": [
+    "runtime SHA256",
+    "GGUF tensor sizes",
+    "runtime CLI flags",
+    "GPU enumeration",
+    "PowerShell launcher CheckOnly"
+  ],
+  "context": 4096,
+  "runtime": "official llama.cpp b12110 Vulkan x64",
+  "physical_8gb_inference_tested": false,
+  "fallback_gpu_layers": 16,
+  "fallback_context": 2048,
+  "default_gpu_layers": 20,
+  "status": "configuration_ready",
+  "runtime_zip_sha256": "9732a5e48887ca54d0bfe4af4324dc85fd56cd8cda19b52df3542fa6ebe6874f",
+  "mode": "user-provided matching Q4 base plus separate GGUF LoRA, CPU/GPU layer offload"
+}

@@ -1,0 +1,14 @@
+*.gguf
+*.part[0-9]*
+*.partial
+*.tmp
+*.zip
+8GB-启动包/runtime/
+__pycache__/
+*.log
+.env
+
+*.safetensors
+base-model/
+merged-hf/
+.venv/

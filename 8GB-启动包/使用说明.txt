@@ -1,0 +1,16 @@
+27B 前端 LoRA：8GB 显卡＋内存混合运行
+
+1. 自行下载 README 指定底座对应的 Q4 GGUF，根目录命名 base-Q4_K_M.gguf。
+2. 将 Release 的 lora-round2.gguf 放到同一根目录。
+3. 双击本目录启动8GB.cmd，等待服务就绪，打开 http://127.0.0.1:8087。
+
+默认20个GPU层、4096上下文；显存紧张用16层/2048配置。
+建议32GB以上系统内存。服务只监听本机，Ctrl+C退出。
+物理8GB显卡尚未做端到端生成实测。
+
+自定义：pwsh -File ./启动8GB.ps1 -Model D:/models/base.gguf -Adapter D:/models/lora-round2.gguf
+底座必须与LoRA匹配，不是任意27B模型。
+本启动器会动态应用LoRA，不能把已经合并该LoRA的模型再次传入，否则重复应用。
+
+如需永久合并，用根目录merge_lora.py与原始BF16 HF底座；该合并需要大容量内存。
+只想在8GB显卡运行可使用本动态加载方式，无需本机先合并。
