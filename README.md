@@ -4,7 +4,7 @@
 
 准确底座是 [DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU](https://huggingface.co/DavidAU/Qwen3.8-27B-TURBO-Fable-Cold-Fusion-735-882-Heretic-Uncensored-NM-DAU)，祖先为 Qwen/Qwen3.8-27B。**不能拿任意 Qwen 27B、原版 Qwen 或其他 Uncensored 衍生模型替代。**
 
-发布资产准备在 GitHub Release 草稿中。训练输出来源条款仍待核对，详见 [发布检查](RELEASE_REVIEW.md)；仅发布 LoRA 不会自动解决该问题。
+发布资产已公开发布在 [GitHub Release v0.1.0-preview](https://github.com/KYZHXL/SnowSalt-Frontend-27B/releases/tag/v0.1.0-preview)。训练输出来源条款仍待核对，详见 [发布检查](RELEASE_REVIEW.md)；仅发布 LoRA 不会自动解决该问题。
 
 ## 提供的文件
 

@@ -1,5 +1,7 @@
 # v0.1.0-preview · Frontend LoRA
 
+状态：已公开发布，tag `v0.1.0-preview`。
+
 本次仅提供前端 LoRA 和工具，不包含 27B 底座或合并权重。
 
 - PEFT adapter（约319MB原始权重）与 GGUF adapter（约159MB）。
